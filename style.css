@@ -1,0 +1,84 @@
+body {
+  font-family: "Libre Franklin", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+.first {
+  display: flex;
+  justify-content: center;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block-start: 20px;
+}
+.second h1 {
+  margin-block-end: 0;
+  color: hsl(0, 0%, 59%);
+  font-size: 3.2em;
+  font-weight: normal;
+  margin-block-start: 0;
+}
+.second span {
+  color: black;
+  font-weight: 800;
+}
+.second p {
+  font-size: 1.2em;
+  color: hsl(209, 33%, 12%);
+}
+input {
+  padding: 12px;
+  padding-inline-end: 75px;
+  margin-inline-end: 10px;
+  border-radius: 20px;
+  border: 1px solid hsl(0, 0%, 59%);
+}
+button {
+  background-color: hsl(223, 87%, 63%);
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 12px 30px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.third img {
+  width: 500px;
+  margin-block-start: 20px;
+}
+.last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last i + i {
+  margin-inline-start: 5px;
+}
+
+@media screen and (max-width: 420px) {
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    margin-inline-end: 0;
+  }
+  button {
+    margin-block-start: 10px;
+  }
+  .second {
+    justify-content: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  .third img {
+    width: 100%;
+  }
+}
