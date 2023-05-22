@@ -61,7 +61,7 @@ button {
   margin-inline-start: 5px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 576px) {
   .details {
     display: flex;
     flex-direction: column;
